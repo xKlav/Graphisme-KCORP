@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    // height: 5000px;
+    }
+
+::-webkit-scrollbar {
+width: 0px; /* remove scrollbar space /
+background: transparent; / optional: just make scrollbar invisible /
+}
+/ optional: show position indicator in red */
+}
+  
+body{
+    background: rgba(20, 20, 20, 0.918);
+    margin: 0;
+}
+
+header{
+    height: 975px;
+    .bgkc{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        max-width: 1920px;
+        min-width: 700px;
+        height: 975px;
+    }
+    .title{
+        position: absolute;
+        background: -webkit-linear-gradient(rgba(248, 242, 242, 0.788), #333);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Bebas Neue';  
+        color: white;
+        font-size: 100px;
+        margin-left: 65%;
+        margin-top: 18%;
+        text-align: center;
+    }
+}
+
+main{
+    .cabochard{
+        height: 980px;
+        display: flex;
+        border-top: 1px solid rgb(40, 144, 192);
+        border-bottom: 1px solid rgb(40, 144, 192);
+        background-image: url(../img/Zones/ionia.jpg);
+        background-size: cover;
+
+        .leftcabo{
+            width: 33.33%;
+            h2{
+                color: rgb(170, 90, 15);
+                text-shadow: 1px 1px 2px black;
+                // font-family: 'Tajawal', sans-serif;
+                font-family: 'Play', sans-serif;
+                margin-left: 10%;
+                margin-top: 60%;
+            }
+            .top{
+                position: absolute;
+                width: 10%;
+                margin-left: 12%;
+                margin-top: 5%;
+            }
+        }
+
+        .centercabo{
+            width: 33.33%;
+            h1{
+                // font-family: 'Kaushan Script';
+                font-family: 'Teko', sans-serif;
+                color: rgb(170, 90, 15);
+                text-shadow: 3px 1px 2px black;
+                font-size: 70px;
+                text-align: center;
+            }
+            .imgcabo{
+                width: 60%;
+                margin-top: 15%;
+                margin-left: 20%;
+                border: solid 1px rgb(40, 144, 192);
+            }
+        }
+
+        .rightcabo{
+            width: 33.33%;
+            .irelia{
+                position: absolute;
+                width: 25%;
+                margin-top: 25%;
+                right: 0;
+            }
+            .graves{
+                position: absolute;
+                width: 40%;
+                margin-top: 24%;
+                right: 0;
+                transform: scaleX(-1);
+            }
+            .leesin{
+                position: absolute;
+                width: 25%;
+                margin-top: 8%;
+                right: 5;
+                transform: scaleX(-1);
+            }
+        }
+    }
+
+    .bumm{
+        height: 980px;
+        display: flex;
+        border-top: 1px solid rgb(40, 144, 192);
+        border-bottom: 1px solid rgb(40, 144, 192);
+        background-image: url(../img/Zones/demacia.jpeg);
+        background-size: cover;
+
+        .leftbumm{
+            width: 33.33%;
+            .volibear{
+                position: absolute;
+                width: 30%;
+                margin-top: 5%;
+                transform: scaleX(-1);
+            }
+            .xin{
+                position: absolute;
+                width: 30%;
+                margin-top: 20%;
+                margin-left: 5%;
+                transform: scaleX(-1);
+            }
+            .j4{
+                position: absolute;
+                width: 30%;
+                margin-top: 27%;
+                transform: scaleX(-1);
+            }
+        }
+        
+        .centerbumm{
+            width: 33.33%;
+            // border: 1px solid white;
+            h1{
+                // font-family: 'Kaushan Script';
+                font-family: 'Teko', sans-serif;
+                color: rgb(49, 188, 223);
+                text-shadow: 3px 1px 2px black;
+                font-size: 70px;
+                text-align: center;
+            }
+            .imgbumm{
+                width: 60%;
+                margin-top: 15%;
+                margin-left: 20%;
+                border: solid 1px rgb(40, 144, 192);
+            }
+        }
+
+        .rightbumm{
+            width: 33.33%;
+            h2{
+                color: rgb(49, 188, 223);
+                text-shadow: 1px 1px 2px black;
+                // font-family: 'Tajawal', sans-serif;
+                font-family: 'Play', sans-serif;
+                margin-top: 60%;
+            }
+            .jgl{
+                position: absolute;
+                width: 10%;
+                margin-left: 10%;
+                margin-top: 5%;
+            }
+        }
+    }
+    
+    .saken{
+        height: 980px;
+        display: flex;
+        border-top: 1px solid rgb(40, 144, 192);
+        border-bottom: 1px solid rgb(40, 144, 192);
+        background-image: url(../img/Zones/shurima.webp);
+        background-size: cover;
+
+
+        .leftsaken{
+            width: 33.33%;
+            h2{
+                color: rgb(224, 172, 31);
+                text-shadow: 1px 1px 2px black;
+                // font-family: 'Tajawal', sans-serif;
+                font-family: 'Play', sans-serif;
+                margin-left: 10%;
+                margin-top: 60%;
+            }
+            .mid{
+                position: absolute;
+                width: 10%;
+                margin-left: 12%;
+                margin-top: 5%;
+            }
+        }
+        
+        .centersaken{
+            width: 33.33%;
+            // border: 1px solid white;
+            h1{
+                // font-family: 'Kaushan Script';
+                font-family: 'Teko', sans-serif;
+                color: rgb(224, 172, 31);
+                text-shadow: 3px 1px 2px black;
+                font-size: 70px;
+                text-align: center;
+            }
+            .imgsaken{
+                width: 60%;
+                margin-top: 15%;
+                margin-left: 20%;
+                border: solid 1px rgb(40, 144, 192);
+            }
+        }
+
+        .rightsaken{
+            width: 33.33%;
+            .azir{
+                position: absolute;
+                width: 40%;
+                margin-top: 25%;
+                right: 0;
+            }
+            .leblanc{
+                position: absolute;
+                width: 40%;
+                margin-top: 24%;
+                transform: scaleX(-1);
+            }
+            .ryze{
+                position: absolute;
+                width: 40%;
+                margin-top: 4%;
+                transform: scaleX(-1);
+            }
+        }
+    }
+
+    .rekkles{
+        height: 980px;
+        display: flex;
+        border-top: 1px solid rgb(40, 144, 192);
+        border-bottom: 1px solid rgb(40, 144, 192);
+        background-image: url(../img/Zones/piltover.jpg);
+        background-size: cover;
+
+
+        .leftrekkles{
+            width: 33.33%;
+            .jinx{
+                position: absolute;
+                width: 30%;
+                margin-top: 15%;
+                margin-left: 10%;
+                transform: scaleX(-1);
+            }
+            .jhin{
+                position: absolute;
+                width: 30%;
+                margin-top: 10%;
+                margin-left: 2%;
+                transform: scaleX(-1);
+            }
+            .tristana{
+                position: absolute;
+                width: 20%;
+                margin-top: 27%;
+                margin-left: 3%;
+                transform: scaleX(-1);
+            }
+        }
+        
+        .centerrekkles{
+            width: 33.33%;
+            // border: 1px solid white;
+            h1{
+                // font-family: 'Kaushan Script';
+                font-family: 'Teko', sans-serif;
+                color: rgb(214, 119, 119);
+                text-shadow: 3px 1px 2px black;
+                font-size: 70px;
+                text-align: center;
+            }
+            .imgrekkles{
+                width: 60%;
+                margin-top: 15%;
+                margin-left: 20%;
+                border: solid 1px rgb(40, 144, 192);
+            }
+        }
+
+        .rightrekkles{
+            width: 33.33%;
+            h2{
+                color: rgb(214, 119, 119);
+                text-shadow: 1px 1px 2px black;
+                // font-family: 'Tajawal', sans-serif;
+                font-family: 'Play', sans-serif;
+                margin-top: 60%;
+            }
+            .adc{
+                position: absolute;
+                width: 10%;
+                margin-left: 10%;
+                margin-top: 5%;
+            }
+        }
+    }
+
+    .hantera{
+        height: 980px;
+        display: flex;
+        border-top: 1px solid rgb(40, 144, 192);
+        border-bottom: 1px solid rgb(40, 144, 192);
+        background-image: url(../img/Zones/ilesosbcures.jpg);
+        background-size: cover;
+
+
+        .lefthantera{
+            width: 33.33%;
+            h2{
+                color: rgb(90, 105, 189);
+                text-shadow: 1px 1px 2px black;
+                // font-family: 'Tajawal', sans-serif;
+                font-family: 'Play', sans-serif;
+                margin-left: 10%;
+                margin-top: 60%;
+            }
+            .supp{
+                position: absolute;
+                width: 10%;
+                margin-left: 12%;
+                margin-top: 5%;
+            }
+        }
+        
+        .centerhantera{
+            width: 33.33%;
+            // border: 1px solid white;
+            h1{
+                // font-family: 'Kaushan Script';
+                font-family: 'Teko', sans-serif;
+                color: rgb(90, 105, 189);
+                text-shadow: 3px 1px 2px black;
+                font-size: 70px;
+                text-align: center;
+            }
+            .imghantera{
+                width: 60%;
+                margin-top: 15%;
+                margin-left: 20%;
+                border: solid 1px rgb(40, 144, 192);
+            }
+        }
+
+        .righthantera{
+            width: 33.33%;
+            .pyke{
+                position: absolute;
+                width: 15%;
+                margin-top: 23%;
+                transform: scaleX(-1);
+            }
+            .galio{
+                position: absolute;
+                width: 45%;
+            }
+            .thresh{
+                position: absolute;
+                width: 35%;
+                margin-top: 30%;
+                margin-left: 5%;
+                transform: scaleX(-1);
+            }
+        }
+    }
+}
+

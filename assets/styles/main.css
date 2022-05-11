@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap");
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  /* remove scrollbar space /
+background: transparent; / optional: just make scrollbar invisible /
+}
+/ optional: show position indicator in red */
+}
+
+body {
+  background: rgba(20, 20, 20, 0.918);
+  margin: 0;
+}
+
+header {
+  height: 975px;
+}
+
+header .bgkc {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-width: 1920px;
+  min-width: 700px;
+  height: 975px;
+}
+
+header .title {
+  position: absolute;
+  background: -webkit-linear-gradient(rgba(248, 242, 242, 0.788), #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: 'Bebas Neue';
+  color: white;
+  font-size: 100px;
+  margin-left: 65%;
+  margin-top: 18%;
+  text-align: center;
+}
+
+main .cabochard {
+  height: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #2890c0;
+  border-bottom: 1px solid #2890c0;
+  background-image: url(../img/Zones/ionia.jpg);
+  background-size: cover;
+}
+
+main .cabochard .leftcabo {
+  width: 33.33%;
+}
+
+main .cabochard .leftcabo h2 {
+  color: #aa5a0f;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Play', sans-serif;
+  margin-left: 10%;
+  margin-top: 60%;
+}
+
+main .cabochard .leftcabo .top {
+  position: absolute;
+  width: 10%;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+main .cabochard .centercabo {
+  width: 33.33%;
+}
+
+main .cabochard .centercabo h1 {
+  font-family: 'Teko', sans-serif;
+  color: #aa5a0f;
+  text-shadow: 3px 1px 2px black;
+  font-size: 70px;
+  text-align: center;
+}
+
+main .cabochard .centercabo .imgcabo {
+  width: 60%;
+  margin-top: 15%;
+  margin-left: 20%;
+  border: solid 1px #2890c0;
+}
+
+main .cabochard .rightcabo {
+  width: 33.33%;
+}
+
+main .cabochard .rightcabo .irelia {
+  position: absolute;
+  width: 25%;
+  margin-top: 25%;
+  right: 0;
+}
+
+main .cabochard .rightcabo .graves {
+  position: absolute;
+  width: 40%;
+  margin-top: 24%;
+  right: 0;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .cabochard .rightcabo .leesin {
+  position: absolute;
+  width: 25%;
+  margin-top: 8%;
+  right: 5;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .bumm {
+  height: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #2890c0;
+  border-bottom: 1px solid #2890c0;
+  background-image: url(../img/Zones/demacia.jpeg);
+  background-size: cover;
+}
+
+main .bumm .leftbumm {
+  width: 33.33%;
+}
+
+main .bumm .leftbumm .volibear {
+  position: absolute;
+  width: 30%;
+  margin-top: 5%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .bumm .leftbumm .xin {
+  position: absolute;
+  width: 30%;
+  margin-top: 20%;
+  margin-left: 5%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .bumm .leftbumm .j4 {
+  position: absolute;
+  width: 30%;
+  margin-top: 27%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .bumm .centerbumm {
+  width: 33.33%;
+}
+
+main .bumm .centerbumm h1 {
+  font-family: 'Teko', sans-serif;
+  color: #31bcdf;
+  text-shadow: 3px 1px 2px black;
+  font-size: 70px;
+  text-align: center;
+}
+
+main .bumm .centerbumm .imgbumm {
+  width: 60%;
+  margin-top: 15%;
+  margin-left: 20%;
+  border: solid 1px #2890c0;
+}
+
+main .bumm .rightbumm {
+  width: 33.33%;
+}
+
+main .bumm .rightbumm h2 {
+  color: #31bcdf;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Play', sans-serif;
+  margin-top: 60%;
+}
+
+main .bumm .rightbumm .jgl {
+  position: absolute;
+  width: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+main .saken {
+  height: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #2890c0;
+  border-bottom: 1px solid #2890c0;
+  background-image: url(../img/Zones/shurima.webp);
+  background-size: cover;
+}
+
+main .saken .leftsaken {
+  width: 33.33%;
+}
+
+main .saken .leftsaken h2 {
+  color: #e0ac1f;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Play', sans-serif;
+  margin-left: 10%;
+  margin-top: 60%;
+}
+
+main .saken .leftsaken .mid {
+  position: absolute;
+  width: 10%;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+main .saken .centersaken {
+  width: 33.33%;
+}
+
+main .saken .centersaken h1 {
+  font-family: 'Teko', sans-serif;
+  color: #e0ac1f;
+  text-shadow: 3px 1px 2px black;
+  font-size: 70px;
+  text-align: center;
+}
+
+main .saken .centersaken .imgsaken {
+  width: 60%;
+  margin-top: 15%;
+  margin-left: 20%;
+  border: solid 1px #2890c0;
+}
+
+main .saken .rightsaken {
+  width: 33.33%;
+}
+
+main .saken .rightsaken .azir {
+  position: absolute;
+  width: 40%;
+  margin-top: 25%;
+  right: 0;
+}
+
+main .saken .rightsaken .leblanc {
+  position: absolute;
+  width: 40%;
+  margin-top: 24%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .saken .rightsaken .ryze {
+  position: absolute;
+  width: 40%;
+  margin-top: 4%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .rekkles {
+  height: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #2890c0;
+  border-bottom: 1px solid #2890c0;
+  background-image: url(../img/Zones/piltover.jpg);
+  background-size: cover;
+}
+
+main .rekkles .leftrekkles {
+  width: 33.33%;
+}
+
+main .rekkles .leftrekkles .jinx {
+  position: absolute;
+  width: 30%;
+  margin-top: 15%;
+  margin-left: 10%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .rekkles .leftrekkles .jhin {
+  position: absolute;
+  width: 30%;
+  margin-top: 10%;
+  margin-left: 2%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .rekkles .leftrekkles .tristana {
+  position: absolute;
+  width: 20%;
+  margin-top: 27%;
+  margin-left: 3%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .rekkles .centerrekkles {
+  width: 33.33%;
+}
+
+main .rekkles .centerrekkles h1 {
+  font-family: 'Teko', sans-serif;
+  color: #d67777;
+  text-shadow: 3px 1px 2px black;
+  font-size: 70px;
+  text-align: center;
+}
+
+main .rekkles .centerrekkles .imgrekkles {
+  width: 60%;
+  margin-top: 15%;
+  margin-left: 20%;
+  border: solid 1px #2890c0;
+}
+
+main .rekkles .rightrekkles {
+  width: 33.33%;
+}
+
+main .rekkles .rightrekkles h2 {
+  color: #d67777;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Play', sans-serif;
+  margin-top: 60%;
+}
+
+main .rekkles .rightrekkles .adc {
+  position: absolute;
+  width: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+main .hantera {
+  height: 980px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 1px solid #2890c0;
+  border-bottom: 1px solid #2890c0;
+  background-image: url(../img/Zones/ilesosbcures.jpg);
+  background-size: cover;
+}
+
+main .hantera .lefthantera {
+  width: 33.33%;
+}
+
+main .hantera .lefthantera h2 {
+  color: #5a69bd;
+  text-shadow: 1px 1px 2px black;
+  font-family: 'Play', sans-serif;
+  margin-left: 10%;
+  margin-top: 60%;
+}
+
+main .hantera .lefthantera .supp {
+  position: absolute;
+  width: 10%;
+  margin-left: 12%;
+  margin-top: 5%;
+}
+
+main .hantera .centerhantera {
+  width: 33.33%;
+}
+
+main .hantera .centerhantera h1 {
+  font-family: 'Teko', sans-serif;
+  color: #5a69bd;
+  text-shadow: 3px 1px 2px black;
+  font-size: 70px;
+  text-align: center;
+}
+
+main .hantera .centerhantera .imghantera {
+  width: 60%;
+  margin-top: 15%;
+  margin-left: 20%;
+  border: solid 1px #2890c0;
+}
+
+main .hantera .righthantera {
+  width: 33.33%;
+}
+
+main .hantera .righthantera .pyke {
+  position: absolute;
+  width: 15%;
+  margin-top: 23%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+
+main .hantera .righthantera .galio {
+  position: absolute;
+  width: 45%;
+}
+
+main .hantera .righthantera .thresh {
+  position: absolute;
+  width: 35%;
+  margin-top: 30%;
+  margin-left: 5%;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+}
+/*# sourceMappingURL=main.css.map */
