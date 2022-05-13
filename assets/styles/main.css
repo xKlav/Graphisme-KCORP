@@ -93,7 +93,8 @@ main .cabochard .centercabo .imgcabo {
   width: 60%;
   margin-top: 15%;
   margin-left: 20%;
-  border: solid 1px #2890c0;
+  border: solid 5px #2890c0;
+  border-radius: 10px;
 }
 
 main .cabochard .rightcabo {
@@ -181,7 +182,8 @@ main .bumm .centerbumm .imgbumm {
   width: 60%;
   margin-top: 15%;
   margin-left: 20%;
-  border: solid 1px #2890c0;
+  border: solid 5px #2890c0;
+  border-radius: 10px;
 }
 
 main .bumm .rightbumm {
@@ -248,7 +250,8 @@ main .saken .centersaken .imgsaken {
   width: 60%;
   margin-top: 15%;
   margin-left: 20%;
-  border: solid 1px #2890c0;
+  border: solid 5px #2890c0;
+  border-radius: 10px;
 }
 
 main .saken .rightsaken {
@@ -336,7 +339,8 @@ main .rekkles .centerrekkles .imgrekkles {
   width: 60%;
   margin-top: 15%;
   margin-left: 20%;
-  border: solid 1px #2890c0;
+  border: solid 5px #2890c0;
+  border-radius: 10px;
 }
 
 main .rekkles .rightrekkles {
@@ -403,7 +407,8 @@ main .hantera .centerhantera .imghantera {
   width: 60%;
   margin-top: 15%;
   margin-left: 20%;
-  border: solid 1px #2890c0;
+  border: solid 5px #2890c0;
+  border-radius: 10px;
 }
 
 main .hantera .righthantera {

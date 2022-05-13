@@ -51,7 +51,7 @@
             </div>
             <div class="centerbumm">
                 <h1>113</h1>
-                <img class="imgbumm" src="assets/img/equipe/113.png" alt="">
+                <img class="imgbumm" src="assets/img/equipe/1133.jpg" alt="">
             </div>
             <div class="rightbumm">
                 <img class="jgl" src="assets/img/Roles/jungle.png" alt="">
@@ -88,7 +88,7 @@
             </div>
             <div class="centerrekkles">
                 <h1>Rekkles</h1>
-                <img class="imgrekkles" src="assets/img/equipe/rekkles.avif" alt="">
+                <img class="imgrekkles" src="assets/img/equipe/rekkles1.jpg" alt="">
             </div>
             <div class="rightrekkles">
                 <img class="adc" src="assets/img/Roles/adc.png" alt="">
@@ -107,7 +107,7 @@
             </div>
             <div class="centerhantera">
                 <h1>Hantera</h1>
-                <img class="imghantera" src="assets/img/equipe/hantera.avif" alt="">
+                <img class="imghantera" src="assets/img/equipe/hantera1.jpg" alt="">
             </div>
             <div class="righthantera">
                 <img class="galio" src="assets/img/personnages/galio.png" alt="">
